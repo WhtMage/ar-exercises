@@ -8,3 +8,4 @@ puts "----------"
 @R = Store.create(name: "Richmond", annual_revenue: 1260000, mens_apparel: false, womens_apparel: true)
 @G = Store.create(name: "Gastown", annual_revenue: 190000, mens_apparel: true, womens_apparel: false)
 
+puts Store.count
